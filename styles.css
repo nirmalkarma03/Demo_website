@@ -8,3 +8,10 @@ h1
 {
 	padding: 20px;
 }
+
+a:hover
+{
+	color: darkred;
+	text-decoration: underline;
+	background-color: tan;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>new_employe</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1><center>New Employe Ragistration </center>
+
+		<hr>
+		<form action="" target="_blank" method="get" autocomplete="on" >
+			<fieldset>
+				<legend>Ragistration_page</legend>
+			<label>emp_id</label>
+			<br>
+			<input type="text" name="emp_id">
+			<br>
+			<label>Name</label>
+			<br>
+			<input type="text" name="name" pattern="[a-z A-Z]+">
+			<br>
+			<label>email</label>
+			<br>
+			<input type="text" name="email" pattern="[a-z]+[0-9]+@[a-z]+.com">
+			<br>
+			<label>joining_date</label>
+			<br>
+			<input type="date" name="joining_date" min="01-01-2023"  max="20-06-2023">
+			<br>
+			<label>gender </label>
+			<select id="gender" name="gender">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+			</select>
+			<br>
+			<textarea name="message" rows="10" cols="40"> Write  your short description</textarea>
+			<br>
+			<button type="button" onclick="alert(' ! this is not a submit button')"> submit</button>
+			<br>
+			<input type="submit" value="ragister" >
+		</fieldset>
+
+
+		</form>
+
+
+		<button onclick="document.location='sample.html'">BACK</button>
+
+</body>
+</html>

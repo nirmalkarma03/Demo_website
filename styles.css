@@ -2,7 +2,14 @@ body
 {
 	border: 10px solid #123456;
 	padding: 20px;
+	background-image:url('/home/fittonia/Downloads/bgp.jpg');
+	background-attachment: fixed;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
+
 
 h1
 {
